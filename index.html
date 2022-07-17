@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>World Travelers</title>
+  <link rel="stylesheet" href="style.css" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&family=Special+Elite&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body>
+  <!-- Menu -->
+  <div class="menu target center">
+    <div class="menu-line menu-line-1"></div>
+    <div class="menu-line menu-line-2"></div>
+  </div>
+  <!-- End of Menu -->
+
+  <!-- Navbar -->
+  <nav class="navbar target">
+    <a href="#home" class="navbar-link">Home</a>
+    <a href="#popular-cars" class="navbar-link">Shutters Photography</a>
+    <a href="#video-gallery" class="navbar-link">Environmental Clips</a>
+    <a href="#image-gallery" class="navbar-link">Species Hallway</a>
+    <a href="#contact" class="navbar-link">Tell Us About Your Journey</a>
+  </nav>
+  <!-- End of Navbar -->
+
+  <!-- Section 1 -->
+  <div class="wrapper">
+    <section class="section-1 target center" id="home">
+      <h1 class="section-heading section-1-heading nature-main">World Travelers</h1>
+    </section>
+  </div>
+  <!-- End of Section 1 -->
+
+  <!-- Section 2 -->
+  <div class="wrapper">
+    <section class="section-2 target" id="popular-cars">
+      <h1 class="section-heading" style="font-size: 6rem;">Shutters Photography</h1>
+      <div class="cards-wrapper center">
+        <div class="card">
+          <h2 class="car-name">Alaska</h2>
+          <img src="/images/img1.jpg" class="card-img" />
+          <h3 class="car-price">Located in the Western United States on the northwest extremity of North America</h3>
+          <button type="button" class="card-btn">See More</button>
+        </div>
+        <div class="card">
+          <h2 class="car-name">Northern Lights</h2>
+          <img src="images/img2.jpg" class="card-img" />
+          <h3 class="car-price">Beautiful dancing waves of light that have captivated people for millennia</h3>
+          <button type="button" class="card-btn">See More</button>
+        </div>
+        <div class="card">
+          <h2 class="car-name">Rainbow Mountains</h2>
+          <img src="images/img3.jpg" class="card-img" />
+          <h3 class="car-price">Originally known as Vinicunca, found in the Andes mountains of Peru</h3>
+          <button type="button" class="card-btn">See More</button>
+        </div>
+      </div>
+    </section>
+  </div>
+  <!-- End of Section 2 -->
+
+  <!-- Section 3 -->
+  <div class="wrapper">
+    <section class="section-3 target" id="video-gallery">
+      <h1 class="section-heading" style="font-size: 5rem;">Environmental Clips</h1>
+      <div class="videos-wrapper center">
+        <video src="images/clip1.mp4" muted loop class="video"></video>
+        <video src="images/clip2.mp4" muted loop class="video"></video>
+        <video src="images/clip3.mp4" muted loop class="video"></video>
+      </div>
+      <div class="videos-wrapper center">
+        <video src="images/clip4.mp4" muted loop class="video"></video>
+        <video src="images/clip5.mp4" muted loop class="video"></video>
+        <video src="images/clip6.mp4" muted loop class="video"></video>
+      </div>
+    </section>
+  </div>
+  <!-- End of Section 3 -->
+
+  <!-- Section 4 -->
+  <div class="wrapper">
+    <section class="section-4 target" id="image-gallery">
+      <h1 class="section-heading" style="font-size: 8rem;">Species Hallway</h1>
+      <div class="gallery center">
+        <div class="gallery-shelf"></div>
+        <img src="images/pic1.jpg" class="gallery-img-1" />
+        <img src="images/pic2.jpg" class="gallery-img-2" />
+        <img src="images/pic3.jpg" class="gallery-img-3" />
+      </div>
+      <div class="gallery center">
+        <div class="gallery-shelf"></div>
+        <img src="images/pic4.jpg" class="gallery-img-1" />
+        <img src="images/pic5.jpg" class="gallery-img-2" />
+        <img src="images/pic6.jpg" class="gallery-img-3" />
+      </div>
+    </section>
+  </div>
+  <!-- End of Section 4 -->
+
+  <!-- Section 5 -->
+  <div class="wrapper">
+    <section class="section-5 target" id="contact">
+      <h1 class="section-heading" style="font-size: 5rem;">Tell Us About Your Journey</h1>
+      <form class="contact-form">
+        <input type="text" class="form-input" placeholder="Your Full Name" />
+        <input type="email" class="form-input" placeholder="Your Email" />
+        <textarea class="form-input" placeholder="Enter Message"></textarea>
+        <input class="form-btn" type="submit" value="Submit" />
+      </form>
+      <p class="copyright">
+        Copyright &copy; FeroozWani All Rights Reserved
+      </p>
+    </section>
+  </div>
+  <!-- End of Section 5 -->
+  <script src="script.js"></script>
+</body>
+
+</html>
